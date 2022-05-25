@@ -37,7 +37,7 @@ jobs:
           push: true
           tags: mycontainerappsregistry.azurecr.io/my-container-app:${{ github.sha }}
           file: my-container-app/Dockerfile
-          context: my-container-app/
+          context: /
 
 
   deploy:
